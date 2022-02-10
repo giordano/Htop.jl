@@ -21,7 +21,7 @@ After installation, you can start using the package with
 using Htop
 ```
 
-`Htop.jl` exports a single name: [`htop`].  This is an instance of
+`Htop.jl` exports a single name: `htop`.  This is an instance of
 [`Cmd`](https://docs.julialang.org/en/v1/base/base/#Base.Cmd), which you can execute with
 
 ```julia
