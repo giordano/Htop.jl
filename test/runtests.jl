@@ -2,7 +2,6 @@ using Htop
 using Test
 
 @testset "Htop.jl" begin
-    @test success(htop)
     help = readchomp(`$(htop) --help`)
     @test contains(help, r"^htop")
     version = readchomp(`$(htop) --version`)

@@ -11,7 +11,7 @@ To install `Htop.jl`, activate the Pkg mode in the Julia REPL by typing the `]` 
 add https://github.com/giordano/Htop.jl
 ```
 
-`Htop.jl` is available for Julia v1.6 and following releases.
+`Htop.jl` is available for Julia v1.6 and following releases, only on Unix systems.
 
 ## Usage
 
