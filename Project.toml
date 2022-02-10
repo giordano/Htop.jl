@@ -1,0 +1,13 @@
+name = "Htop"
+uuid = "04129f3b-f258-4184-a926-167ef6ca13df"
+authors = ["Mosè Giordano <mose@gnu.org>"]
+version = "1.0.0"
+
+[deps]
+Htop_jll = "3902149a-7cde-5d36-8de2-61bc48a40c47"
+Ncurses_jll = "68e3532b-a499-55ff-9963-d1c0c0748b3a"
+
+[compat]
+Htop_jll = "3.1.2"
+Ncurses_jll = "6.2.0"
+julia = "1.6"
